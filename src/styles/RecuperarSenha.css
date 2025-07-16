@@ -1,0 +1,71 @@
+.recuperar-container {
+  max-width: 400px;
+  margin: 60px auto;
+  padding: 30px;
+  background-color: #f9f9f9;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.recuperar-container h2 {
+  text-align: center;
+  margin-bottom: 24px;
+  color: #2d3748;
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.recuperar-container input[type="email"] {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  transition: border-color 0.2s ease-in-out;
+}
+
+.recuperar-container input[type="email"]:focus {
+  border-color: #3182ce;
+  outline: none;
+}
+
+.recuperar-container button {
+  width: 100%;
+  background-color: #3182ce;
+  color: white;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.recuperar-container button:hover {
+  background-color: #2b6cb0;
+}
+
+.recuperar-container .mensagem {
+  margin-top: 16px;
+  font-size: 14px;
+  text-align: center;
+  color: #d53f8c;
+}
+
+.recuperar-container .mensagem.sucesso {
+  color: #38a169;
+}
+
+.recuperar-container .voltar-btn {
+  margin-top: 12px;
+  background-color: transparent;
+  color: #4a5568;
+  border: none;
+  text-decoration: underline;
+  cursor: pointer;
+  font-size: 14px;
+  display: block;
+  text-align: center;
+}
